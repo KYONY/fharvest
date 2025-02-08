@@ -22,14 +22,14 @@ harvester = FileHarvester(
 harvester.copy_files()
 ```
 
-##### Main Features
+#### Main Features
 
 * Collect files with specific extensions (.py, .js, .css, .json) from multiple source directories
 * Exclude specified files (e.g., init.py)
 * Support for additional file copying (.env, docker files, etc.)
 * Configurable file extensions and exclusion rules
 
-#### Detailed Usage
+##### Detailed Usage
 
 ##### Basic File Collection
 
@@ -99,6 +99,7 @@ class FileHarvester:
 ```
 
 ###### Examples
+
 **Common Use Cases**
 
 1. Collection of Python files:
@@ -132,24 +133,31 @@ harvester.copy_files([
 
 1. Clone the repository
 2. Install development dependencies:
+
 ```python
 pip install -e ".[dev]"
 ```
 3. Run tests:
+
 ```python
 pytest
 ```
+
 **Links**
 
-GitHub: github.com/kyony/fharvest
-Issues: github.com/kyony/fharvest/issues
+**GitHub**: 
+github.com/kyony/fharvest
 
-**License**
+**Issues**: 
+github.com/kyony/fharvest/issues
+
+**License**: 
 This project is licensed under the MIT License.
-**Author**
+
+**Author**:
 Viktor Pryima (pryima.viktor@gmail.com)
 
-```python
+```
 This documentation:
 - Provides clear installation instructions
 - Shows quick start examples
